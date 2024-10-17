@@ -1,11 +1,6 @@
 # URL Shortener
 
-A URL Shortener Application built with Node.js, Fastify and PostgreSQL. See the
-[final branch](https://github.com/betterstack-community/node-url-shortener/tree/final)
-for the updated code with Docker configuration.
-
-**Tutorial**:
-[A Comprehensive Guide to Dockerizing Node.js Applications](https://betterstack.com/community/guides/scaling-nodejs/dockerize-nodejs/)
+This URL shortener application is built with Node.js, Fastify and PostgreSQL. It serves as a demo on how to use docker and docker compose to run a production build of a Full-stack web app.
 
 ![URL Shortener Application](screenshot.png)
 
@@ -18,8 +13,20 @@ for the updated code with Docker configuration.
 
 ## Getting started
 
-Find the set up instructions in
-[step 1 of the article](https://betterstack.com/community/guides/scaling-nodejs/dockerize-nodejs/#step-1-setting-up-the-demo-project).
+
+- Clone this repo to your machine:
+
+```bash
+git clone https://github.com/marekzelinka/url-shortener
+```
+
+- Execute the command below to start the production server:
+
+```bash
+docker compose up --build
+```
+
+- Visit http://localhost:5000 in your browser.
 
 ## How to use
 
@@ -27,3 +34,8 @@ Find the set up instructions in
   will be displayed on the page.
 - Click the **Visit** button to open the shortened URL in a new tab. It should
   redirect you to the original URL.
+
+## Credits
+
+- **Tutorial**:
+[A Comprehensive Guide to Dockerizing Node.js Applications](https://betterstack.com/community/guides/scaling-nodejs/dockerize-nodejs/)
