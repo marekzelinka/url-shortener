@@ -26,14 +26,14 @@
     "@fastify/view": "^9.1.0",
     "dotenv": "^16.4.5",
     "env-schema": "^6.0.0",
-    "fastify": "^4.28.1",
+    "fastify": "^5.8.5",
     "fastify-graceful-shutdown": "^4.0.1",
-    "nanoid": "^5.0.7",
+    "nanoid": "^5.0.9",
     "pg": "^8.13.0",
     "pg-hstore": "^2.3.4",
     "pino": "^9.5.0",
     "pug": "^3.0.3",
-    "sequelize": "^6.37.4"
+    "sequelize": "^6.37.8"
   },
   "packageManager": "pnpm@9.12.1+sha512.e5a7e52a4183a02d5931057f7a0dbff9d5e9ce3161e33fa68ae392125b79282a8a8a470a51dfc8a0ed86221442eb2fb57019b0990ed24fab519bf0e1bc5ccfc4"
 }
