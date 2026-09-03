@@ -26,7 +26,7 @@
     "@fastify/view": "^9.1.0",
     "dotenv": "^16.4.5",
     "env-schema": "^6.0.0",
-    "fastify": "^5.8.5",
+    "fastify": "^5.12.1",
     "fastify-graceful-shutdown": "^4.0.1",
     "nanoid": "^5.1.16",
     "pg": "^8.13.0",
